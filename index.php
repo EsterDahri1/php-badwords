@@ -11,7 +11,8 @@
 <body>
     <div class="container">
         <form class="mt-5" action="script.php" method="post">
-            Name: <input class="" placeholder="Insert your sentence" type="text" name="sentence" id="sentence"> <br>
+            Word: <input class="" placeholder="Insert a wright word" type="text" name="word" id="word"> <br>
+            Bad word: <input class="" placeholder="Insert your bad word" type="text" name="bad_Word" id="bad_Word"> <br>
             <button class="btn btn-primary " type="submit">Send</button>
         </form>
     </div>
