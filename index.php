@@ -9,6 +9,14 @@
 </head>
 
 <body>
+    <div class="container">
+        <form class="mt-5" action="script.php" method="post">
+            Name: <input class="" placeholder="Insert your name" type="text" name="user_name" id="user_name"> <br>
+            Email: <input class="" placeholder="Insert your e-mail" type="text" name="user_email" id="user_email"> <br>
+            Password: <input class="" placeholder="Insert your password" type="text" name="password" id="password"> <br>
+            <button class="btn btn-primary " type="submit">Send</button>
+        </form>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
