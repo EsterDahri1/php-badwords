@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The bad word</title>
+</head>
+
 <body>
-    Welcome <?php echo $_POST["user_name"]; ?> <br>
-    Your email adress is: <?php echo $_POST["user_email"]; ?>
-    Your password is: <?php echo $_POST["password"]; ?>
+
 </body>
 
 </html>

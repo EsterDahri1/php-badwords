@@ -11,9 +11,7 @@
 <body>
     <div class="container">
         <form class="mt-5" action="script.php" method="post">
-            Name: <input class="" placeholder="Insert your name" type="text" name="user_name" id="user_name"> <br>
-            Email: <input class="" placeholder="Insert your e-mail" type="text" name="user_email" id="user_email"> <br>
-            Password: <input class="" placeholder="Insert your password" type="text" name="password" id="password"> <br>
+            Name: <input class="" placeholder="Insert your sentence" type="text" name="sentence" id="sentence"> <br>
             <button class="btn btn-primary " type="submit">Send</button>
         </form>
     </div>
