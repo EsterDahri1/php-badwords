@@ -15,7 +15,7 @@ $wright_word = str_replace($bad_word, $w1, $w2);
 </head>
 
 <body>
-    <p>Word 1: <?php echo $w1; ?></p>
+    <h3>Word: <?php echo $w1; ?></h3>
     <h4>The inserted word is <?php echo strlen($w1) ?> letters long.</h4>
     <h4>The censored word is: <?php echo $wright_word; ?></h4>
 </body>
