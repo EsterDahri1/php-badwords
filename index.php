@@ -10,16 +10,22 @@
 
 <body>
     <div class="container">
-        <form class="mt-5" action="script.php" method="post">
-            Word: <input class="" placeholder="Insert a wright word" type="text" name="word" id="word"> <br>
-            Bad word: <input class="" placeholder="Insert your bad word" type="text" name="bad_Word" id="bad_Word"> <br>
+        <form class="mt-5" action="script.php" method="get">
+            <div class="mb-3">
+                <label for="" class="form-label">Word</label>
+                <input type="text" class="form-control" name="word" id="word" aria-describedby="helpId" placeholder="Type a word to censure">
+                <small id="helpId" class="form-text text-muted">Type a word to censure</small>
+            </div>
+            <div class="mb-3">
+                <label for="" class="form-label">Sentence</label>
+                <input type="text" class="form-control" name="sentence" id="sentence" aria-describedby="helpId" placeholder="Type a paragraph">
+                <small id="helpId" class="form-text text-muted">Type a pragraph</small>
+            </div>
             <button class="btn btn-primary " type="submit">Send</button>
         </form>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

@@ -1,8 +1,8 @@
 <?php
-$w1 = $_POST['word'];
-$bad_Word = $_POST['bad_Word'];
-$w2 = '***';
-$wright_word = str_replace($bad_word, $w1, $w2);
+$word = $_GET['word'];
+$initial_p = $_GET['sentence'];
+
+$censured_text = str_replace($word, '***', $initial_p);
 ?>
 
 <!DOCTYPE html>
@@ -15,9 +15,17 @@ $wright_word = str_replace($bad_word, $w1, $w2);
 </head>
 
 <body>
-    <h3>Word: <?php echo $w1; ?></h3>
-    <h4>The inserted word is <?php echo strlen($w1) ?> letters long.</h4>
-    <h4>The censored word is: <?php echo $wright_word; ?></h4>
+    <div>
+        <h3>Original text</h3>
+        <p>Original: <?php echo $initial_p; ?></p>
+        <p>Length: <?php echo strlen($initial_p); ?></p>
+    </div>
+    <hr>
+    <div>
+        <h3>Censured text</h3>
+        <p>Censured pragraph: <?php echo $censured_text; ?></p>
+        <p>Length: <?php echo strlen($censured_text); ?></p>
+    </div>
 </body>
 
 </html>
